@@ -1,0 +1,22 @@
+<!--
+  Generated template for the SearchDisciplinaPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ 'LISTA_OFERTA_DISCIPLINA_TITLE' | translate }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar (ionInput)="pesquisaDisciplina($event)" placeholder="{{ 'LISTA_OFERTA_DISCIPLINA_PLACEHOLDER' | translate }}">
+  </ion-searchbar>
+  <ion-list>
+    <button text-wrap ion-item (click)="abrirTurmas(disciplina)" *ngFor="let disciplina of currentDisciplinas">
+      <h2>{{disciplina.codigo}}</h2>
+      <p>{{disciplina.nome}}</p>
+    </button>
+  </ion-list>
+</ion-content>
