@@ -30,5 +30,13 @@
     </button>
   </div>
 </ion-footer>
+<ion-footer *ngIf="(matricula.status === undefined)">
+  <div class="btn-wrapper">
+    <button ion-button icon-left color="danger" (click)="excluir()">
+      <ion-icon name="close-circle"></ion-icon>
+      {{ 'DELETE_BUTTON' | translate }}
+    </button>
+  </div>
+</ion-footer>
 
 

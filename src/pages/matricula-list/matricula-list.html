@@ -27,7 +27,7 @@
       </button>
   </ion-list>
 </ion-content>
-<ion-footer *ngIf="(currentMatriculaConfirmada == false)">
+<ion-footer *ngIf="(enableConfirmarMatricula())">
   <div class="btn-wrapper">
     <button ion-button icon-left color="secondary" (click)="confirmarMatricula()">
       <ion-icon name="checkmark-circle"></ion-icon>

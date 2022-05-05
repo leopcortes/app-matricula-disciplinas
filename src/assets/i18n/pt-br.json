@@ -63,7 +63,7 @@
 
   "DONE_BUTTON": "Pronto",
   "CANCEL_BUTTON": "Cancelar",
-  "DELETE_BUTTON": "Apagar",
+  "DELETE_BUTTON": "Excluir",
   "REJECT_BUTTON": "Retirar",
   "CONFIRM_BUTTON": "Confirmar",
   "COMPLETE_BUTTON": "Confirmar Matrícula",
@@ -76,5 +76,9 @@
   "LISTA_OFERTA_TURMA_TITLE": "Turmas",
 
   "LISTA_OFERTA_DISCIPLINA_TITLE": "Lista de Oferta",
-  "LISTA_OFERTA_DISCIPLINA_PLACEHOLDER": "ex: \"ENE0274\" ou \"PROJETO TRANSVERSAL\""
+  "LISTA_OFERTA_DISCIPLINA_PLACEHOLDER": "ex: \"ENE0274\" ou \"PROJETO TRANSVERSAL\"",
+  
+  "ADICIONAR_TURMA_TITLE": "Adiconar Turma",
+  "ADICIONAR_TURMA_DESCRIPTION": "Confirma inclusão desta turma no seu pedido de matrícula?",
+  "ADICIONAR_TURMA_INPUTNAME": "Prioridade"
 }

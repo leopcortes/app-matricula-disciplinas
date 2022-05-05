@@ -46,13 +46,16 @@ export class MatriculaListPage {
 
   confirmarMatricula() {
     this.matriculaProvider.confirmarMatricula();
-    for(let i = 0; i < this.currentMatriculas.length; i++)
-    {
-      if(this.currentMatriculas[i].status != "PreMatricula")
-      {
-        this.currentMatriculaConfirmada = true;
-      }
-    }
+    this.currentMatriculaConfirmada = true;
   }
 
+  enableConfirmarMatricula() {
+    if(this.currentMatriculaConfirmada)
+      return false;
+    for(let matricula of this.currentMatriculas) {
+      if(matricula.status == 'PreMatricula')
+        return false;
+    }
+    return true;
+  }
 }

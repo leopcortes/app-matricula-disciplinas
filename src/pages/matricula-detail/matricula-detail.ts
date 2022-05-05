@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Matricula } from '../../models/matricula';
+import { MatriculaProvider } from '../../providers';
 
 /**
  * Generated class for the MatriculaDetailPage page.
@@ -18,8 +19,9 @@ export class MatriculaDetailPage {
 
   matricula: Matricula;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public matriculaProvider: MatriculaProvider) {
     this.matricula = navParams.get('matricula');
+
     console.log(this.matricula);
   }
 
@@ -32,6 +34,11 @@ export class MatriculaDetailPage {
    */
      alterarStatus(status: string) {
       this.matricula.status = status;
+      this.navCtrl.pop();
+    }
+
+    excluir(){
+      this.matriculaProvider.delete(this.matricula);
       this.navCtrl.pop();
     }
 }

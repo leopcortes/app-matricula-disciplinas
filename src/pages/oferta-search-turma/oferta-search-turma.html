@@ -1,5 +1,5 @@
 <!--
-  Generated template for the OfertaSearchTurmaPage page.
+  Generated template for the ListaOfertaSearchTurmaPage page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
@@ -10,14 +10,14 @@
   </ion-navbar>
 </ion-header>
 
-
 <ion-content padding>
   <ion-list>
-    <button ion-item (click)='adicionarTurma(turma)' *ngFor="let turma of currentTurmas" text-wrap>
-      <h2>{{turma.disciplina.codigo + ' - ' + turma.disciplina.nome}}</h2>
+    <button ion-item (click)="adicionarTurma(turma)" *ngFor="let turma of currentTurmas"  text-wrap>
+      <h2>{{turma.disciplina.codigo+ ' - ' + turma.disciplina.nome}}</h2>
       <h2>{{turma.codigo}}</h2>
-      <p *ngFor="let horarioAula of turma.horariosAula"> {{horarioAula.dia + ' : ' + horarioAula.hora}}</p>
-      <p>{{'Vagas Disponíveis: ' + (turma.vagas-turma.alunosMatriculados)}}</p>
+      <p *ngFor="let horario of turma.horarios">{{ horario.dia+': '+horario.horaInicio+' às '+horario.horaFim}}</p>
+      <p>{{ 'Vagas Disponíveis: '+(turma.vagas-turma.alunosMatriculados)}}</p>
     </button>
   </ion-list>
+
 </ion-content>

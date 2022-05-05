@@ -15,21 +15,24 @@ export class TurmaProvider {
         "disciplina": {
           "codigo" : "MAT0025",
           "nome" : "CÁLCULO 1",
-          "cargaHorariaTotal" : 90,
-          "unidadeAcademica" : "MAT"
+          "cargaHoraria" : 90,
+          "unidade" : "MAT"
           },
-        "horariosAula": [
+        "horarios": [
           {
             "dia": "SEG",
-            "hora": "10:00 às 11:50"
+            "horaInicio": "10:00",
+            "horaFim": "11:50"
           },
           {
             "dia": "TER",
-            "hora": "10:00 às 11:50"
+            "horaInicio": "10:00",
+            "horaFim": "11:50"
           },
           {
             "dia": "QUI",
-            "hora": "10:00 às 11:50"
+            "horaInicio": "10:00",
+            "horaFim": "11:50"
           }
         ],
         "professores": [
@@ -48,21 +51,24 @@ export class TurmaProvider {
       "disciplina": {
         "codigo" : "MAT0025",
         "nome" : "CÁLCULO 1",
-        "cargaHorariaTotal" : 90,
-        "unidadeAcademica" : "MAT"
+        "cargaHoraria" : 90,
+        "unidade" : "MAT"
         },
-      "horariosAula": [
+      "horarios": [
         {
           "dia": "SEG",
-          "hora": "14:00 às 15:50"
+          "horaInicio": "14:00",
+            "horaFim": "15:50"
         },
         {
           "dia": "QUA",
-          "hora": "14:00 às 15:50"
+          "horaInicio": "14:00",
+            "horaFim": "15:50"
         },
         {
           "dia": "SEX",
-          "hora": "14:00 às 15:50"
+          "horaInicio": "14:00",
+            "horaFim": "15:50"
         }
       ],
       "professores": [
@@ -78,21 +84,24 @@ export class TurmaProvider {
     "disciplina": {
       "codigo" : "MAT0025",
       "nome" : "CÁLCULO 1",
-      "cargaHorariaTotal" : 90,
-      "unidadeAcademica" : "MAT"
+      "cargaHoraria" : 90,
+      "unidade" : "MAT"
       },
-    "horariosAula": [
+    "horarios": [
       {
         "dia": "TER",
-        "hora": "08:00 às 09:50"
+        "horaInicio": "08:00",
+            "horaFim": "09:50"
       },
       {
         "dia": "QUI",
-        "hora": "08:00 às 09:50"
+        "horaInicio": "08:00",
+            "horaFim": "09:50"
       },
       {
         "dia": "SEX",
-        "hora": "08:00 às 09:50"
+        "horaInicio": "08:00",
+            "horaFim": "09:50"
       }
     ],
     "professores": [
@@ -108,17 +117,19 @@ export class TurmaProvider {
       "disciplina": {
         "codigo" : "MAT0031",
         "nome" : "INTRODUCAO A ALGEBRA LINEAR",
-        "cargaHorariaTotal" : 60,
-        "unidadeAcademica" : "MAT"
+        "cargaHoraria" : 60,
+        "unidade" : "MAT"
       },
-      "horariosAula": [
+      "horarios": [
         {
           "dia": "SEG",
-          "hora": "16:00 às 17:50"
+          "horaInicio": "16:00",
+            "horaFim": "17:50"
         },
         {
           "dia": "QUA",
-          "hora": "16:00 às 17:50"
+          "horaInicio": "16:00",
+            "horaFim": "17:50"
         }
       ],
       "professores": [
@@ -134,17 +145,19 @@ export class TurmaProvider {
     "disciplina": {
       "codigo" : "MAT0031",
       "nome" : "INTRODUCAO A ALGEBRA LINEAR",
-      "cargaHorariaTotal" : 60,
-      "unidadeAcademica" : "MAT"
+      "cargaHoraria" : 60,
+      "unidade" : "MAT"
     },
-    "horariosAula": [
+    "horarios": [
       {
         "dia": "TER",
-        "hora": "19:00 às 20:50"
+        "horaInicio": "19:00",
+            "horaFim": "20:50"
       },
       {
         "dia": "QUI",
-        "hora": "19:00 às 20:50"
+        "horaInicio": "19:00",
+            "horaFim": "20:50"
       }
     ],
     "professores": [
@@ -160,13 +173,14 @@ export class TurmaProvider {
     "disciplina": {
       "codigo" : "ENE0026",
       "nome" : "INTRODUÇÃO A ENGENHARIA DE REDES DE COMUNICACÃO",
-      "cargaHorariaTotal" : 30,
-      "unidadeAcademica" : "ENE"
+      "cargaHoraria" : 30,
+      "unidade" : "ENE"
   },
-    "horariosAula": [
+    "horarios": [
       {
         "dia": "SEX",
-        "hora": "14:00 às 15:50"
+        "horaInicio": "14:00",
+            "horaFim": "15:50"
       },
     ],
     "professores": [
@@ -182,17 +196,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0334",
     "nome" : "COMPUTACAO PARA ENGENHARIA",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 60,
+    "unidade" : "ENE"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "QUA",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
     {
       "dia": "SEX",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     }
   ],
   "professores": [
@@ -208,17 +224,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0334",
     "nome" : "COMPUTACAO PARA ENGENHARIA",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 60,
+    "unidade" : "ENE"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
     {
       "dia": "QUA",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     }
   ],
   "professores": [
@@ -234,17 +252,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "IFD0171",
     "nome" : "FISICA 1",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "IFD"
+    "cargaHoraria" : 60,
+    "unidade" : "IFD"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "TER",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     },
     {
       "dia": "QUI",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     }
   ],
   "professores": [
@@ -260,17 +280,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "IFD0171",
     "nome" : "FISICA 1",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "IFD"
+    "cargaHoraria" : 60,
+    "unidade" : "IFD"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     },
     {
       "dia": "QUA",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     }
   ],
   "professores": [
@@ -286,13 +308,14 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "IFD0173",
     "nome" : "FISICA 1 EXPERIMENTAL",
-    "cargaHorariaTotal" : 30,
-    "unidadeAcademica" : "IFD"
+    "cargaHoraria" : 30,
+    "unidade" : "IFD"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     },
   ],
   "professores": [
@@ -308,13 +331,14 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "IFD0173",
     "nome" : "FISICA 1 EXPERIMENTAL",
-    "cargaHorariaTotal" : 30,
-    "unidadeAcademica" : "IFD"
+    "cargaHoraria" : 30,
+    "unidade" : "IFD"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEX",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     },
   ],
   "professores": [
@@ -330,17 +354,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "IFD0175",
     "nome" : "FISICA 2",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "IFD"
+    "cargaHoraria" : 60,
+    "unidade" : "IFD"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
     {
       "dia": "QUA",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     }
   ],
   "professores": [
@@ -356,17 +382,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "IFD0175",
     "nome" : "FISICA 2",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "IFD"
+    "cargaHoraria" : 60,
+    "unidade" : "IFD"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "TER",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
     {
       "dia": "QUI",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     }
   ],
   "professores": [
@@ -382,17 +410,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0013",
     "nome" : "ALGORITMOS E ESTRUTURA DE DADOS",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 60,
+    "unidade" : "ENE"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "TER",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
     {
       "dia": "QUI",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     }
   ],
   "professores": [
@@ -408,17 +438,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0013",
     "nome" : "ALGORITMOS E ESTRUTURA DE DADOS",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 60,
+    "unidade" : "ENE"
   },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "16:00 às 17:50"
+      "horaInicio": "16:00",
+            "horaFim": "17:50"
     },
     {
       "dia": "QUA",
-      "hora": "16:00 às 17:50"
+      "horaInicio": "16:00",
+            "horaFim": "17:50"
     }
   ],
   "professores": [
@@ -434,17 +466,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0039",
     "nome" : "SISTEMAS DIGITAIS",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 60,
+    "unidade" : "ENE"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "TER",
-      "hora": "16:00 às 17:50"
+      "horaInicio": "16:00",
+            "horaFim": "17:50"
     },
     {
       "dia": "QUI",
-      "hora": "16:00 às 17:50"
+      "horaInicio": "16:00",
+            "horaFim": "17:50"
     }
   ],
   "professores": [
@@ -460,17 +494,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0039",
     "nome" : "SISTEMAS DIGITAIS",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 60,
+    "unidade" : "ENE"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "TER",
-      "hora": "14:00 às 15:50"
+      "horaInicio": "14:00",
+            "horaFim": "15:50"
     },
     {
       "dia": "QUI",
-      "hora": "14:00 às 15:50"
+      "horaInicio": "14:00",
+            "horaFim": "15:50"
     }
   ],
   "professores": [
@@ -486,13 +522,14 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0040",
     "nome" : "LABORATÓRIO DE SISTEMAS DIGITAIS",
-    "cargaHorariaTotal" : 30,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 30,
+    "unidade" : "ENE"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
   ],
   "professores": [
@@ -508,13 +545,14 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0040",
     "nome" : "LABORATÓRIO DE SISTEMAS DIGITAIS",
-    "cargaHorariaTotal" : 30,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 30,
+    "unidade" : "ENE"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "14:00 às 15:50"
+      "horaInicio": "14:00",
+            "horaFim": "15:50"
     },
   ],
   "professores": [
@@ -530,13 +568,14 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "ENE0040",
     "nome" : "LABORATÓRIO DE SISTEMAS DIGITAIS",
-    "cargaHorariaTotal" : 30,
-    "unidadeAcademica" : "ENE"
+    "cargaHoraria" : 30,
+    "unidade" : "ENE"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEX",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     },
   ],
   "professores": [
@@ -552,21 +591,24 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "MAT0026",
     "nome" : "CÁLCULO 2",
-    "cargaHorariaTotal" : 90,
-    "unidadeAcademica" : "MAT"
+    "cargaHoraria" : 90,
+    "unidade" : "MAT"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
     {
       "dia": "TER",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
     {
       "dia": "QUI",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     }
   ],
   "professores": [
@@ -582,21 +624,24 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "MAT0026",
     "nome" : "CÁLCULO 2",
-    "cargaHorariaTotal" : 90,
-    "unidadeAcademica" : "MAT"
+    "cargaHoraria" : 90,
+    "unidade" : "MAT"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     },
     {
       "dia": "TER",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     },
     {
       "dia": "QUI",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     }
   ],
   "professores": [
@@ -612,17 +657,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "EST0023",
     "nome" : "PROBABILIDADE E ESTATÍSTICA",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "EST"
+    "cargaHoraria" : 60,
+    "unidade" : "EST"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     },
     {
       "dia": "QUA",
-      "hora": "08:00 às 09:50"
+      "horaInicio": "08:00",
+            "horaFim": "09:50"
     }
   ],
   "professores": [
@@ -638,17 +685,19 @@ export class TurmaProvider {
   "disciplina": {
     "codigo" : "EST0023",
     "nome" : "PROBABILIDADE E ESTATÍSTICA",
-    "cargaHorariaTotal" : 60,
-    "unidadeAcademica" : "EST"
+    "cargaHoraria" : 60,
+    "unidade" : "EST"
 },
-  "horariosAula": [
+  "horarios": [
     {
       "dia": "SEG",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     },
     {
       "dia": "QUA",
-      "hora": "10:00 às 11:50"
+      "horaInicio": "10:00",
+            "horaFim": "11:50"
     }
   ],
   "professores": [
@@ -664,17 +713,19 @@ export class TurmaProvider {
         "disciplina": {
             "nome": "PROJETO TRANSVERSAL EM REDES DE COMUNICAÇÃO 1",
             "codigo": "ENE0022",
-            "cargaHorariaTotal": 60,
-            "unidadeAcademica": "ENE"
+            "cargaHoraria": 60,
+            "unidade": "ENE"
         },
-        "horariosAula": [
+        "horarios": [
           {
             "dia": "SEG",
-            "hora": "10:00 às 11:50"
+            "horaInicio": "10:00",
+            "horaFim": "11:50"
           },
           {
             "dia": "QUA",
-            "hora": "10:00 às 11:50"
+            "horaInicio": "10:00",
+            "horaFim": "11:50"
           }
         ],
         "professores": [
@@ -690,17 +741,19 @@ export class TurmaProvider {
         "disciplina": {
             "nome": "FUNDAMENTOS DE REDES",
             "codigo": "ENE0274",
-            "cargaHorariaTotal": 60,
-            "unidadeAcademica": "ENE"
+            "cargaHoraria": 60,
+            "unidade": "ENE"
         },
-        "horariosAula": [
+        "horarios": [
           {
             "dia": "SEG",
-            "hora": "08:00 às 09:50"
+            "horaInicio": "08:00",
+            "horaFim": "09:50"
           },
           {
             "dia": "QUA",
-            "hora": "08:00 às 09:50"
+            "horaInicio": "08:00",
+            "horaFim": "09:50"
           }
         ],
         "professores": [
@@ -716,17 +769,19 @@ export class TurmaProvider {
         "disciplina": {
             "nome": "FISICA 2 EXPERIMENTAL",
             "codigo": "IFD0177",
-            "cargaHorariaTotal": 60,
-            "unidadeAcademica": "IFD"
+            "cargaHoraria": 60,
+            "unidade": "IFD"
         },
-        "horariosAula": [
+        "horarios": [
           {
             "dia": "TER",
-            "hora": "14:00 às 15:50"
+            "horaInicio": "14:00",
+            "horaFim": "15:50"
           },
           {
             "dia": "TER",
-            "hora": "16:00 às 17:50"
+            "horaInicio": "16:00",
+            "horaFim": "17:50"
           }
         ],
         "professores": [
@@ -742,17 +797,19 @@ export class TurmaProvider {
       "disciplina": {
         "nome": "FISICA 2 EXPERIMENTAL",
         "codigo": "IFD0177",
-        "cargaHorariaTotal": 60,
-        "unidadeAcademica": "IFD"
+        "cargaHoraria": 60,
+        "unidade": "IFD"
   },
-      "horariosAula": [
+      "horarios": [
         {
           "dia": "SEG",
-          "hora": "00:00 às 09:50"
+          "horaInicio": "00:00",
+            "horaFim": "09:50"
         },
         {
           "dia": "SEG",
-          "hora": "10:00 às 11:50"
+          "horaInicio": "10:00",
+            "horaFim": "11:50"
         }
       ],
       "professores": [
@@ -768,21 +825,24 @@ export class TurmaProvider {
       "disciplina": {
         "nome": "CÁLCULO 3",
         "codigo": "MAT0027",
-        "cargaHorariaTotal": 90,
-        "unidadeAcademica": "MAT"
+        "cargaHoraria": 90,
+        "unidade": "MAT"
   },
-      "horariosAula": [
+      "horarios": [
         {
           "dia": "SEG",
-          "hora": "14:00 às 15:50"
+          "horaInicio": "14:00",
+            "horaFim": "15:50"
         },
         {
           "dia": "QUA",
-          "hora": "14:00 às 15:50"
+          "horaInicio": "14:00",
+            "horaFim": "15:50"
         },
         {
           "dia": "SEX",
-          "hora": "14:00 às 15:50"
+          "horaInicio": "14:00",
+            "horaFim": "15:50"
         },
       ],
       "professores": [
@@ -798,21 +858,24 @@ export class TurmaProvider {
         "disciplina": {
             "nome": "CÁLCULO 3",
             "codigo": "MAT0027",
-            "cargaHorariaTotal": 90,
-            "unidadeAcademica": "MAT"
+            "cargaHoraria": 90,
+            "unidade": "MAT"
         },
-        "horariosAula": [
+        "horarios": [
           {
             "dia": "TER",
-            "hora": "08:00 às 09:50"
+            "horaInicio": "08:00",
+            "horaFim": "09:50"
           },
           {
             "dia": "QUI",
-            "hora": "08:00 às 09:50"
+            "horaInicio": "08:00",
+            "horaFim": "09:50"
           },
           {
             "dia": "SEX",
-            "hora": "08:00 às 09:50"
+            "horaInicio": "08:00",
+            "horaFim": "09:50"
           }
         ],
         "professores": [
